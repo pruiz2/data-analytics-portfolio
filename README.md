@@ -1,19 +1,29 @@
 # Data Analytics Portfolio — Pablo Ruiz
 
 A collection of data analysis projects showcasing skills in 
-SQL, Excel, Python, and data visualization.
+SQL, Excel, Power BI, Python, and data visualization.
 
 ## Skills
 - **SQL** — JOINs, window functions, CTEs, aggregations (MySQL, PostgreSQL)
 - **Excel** — VLOOKUP, XLOOKUP, COUNTIFS, pivot tables, dashboard design
+- **Power BI** — DAX measures, data modeling, interactive dashboards
 - **Python** — pandas, matplotlib, exploratory data analysis
-- **Tools** — MySQL Workbench, Microsoft Excel, GitHub
+- **Tools** — MySQL Workbench, Power BI Desktop, Microsoft Excel, GitHub
 
 ---
 
 ## Projects
 
-### [Northwind Sales Analysis](https://github.com/pruiz2/data-analytics-portfolio/blob/main/northwind-sales-analysis)
+### [Northwind Sales Dashboard — Power BI](https://github.com/pruiz2/data-analytics-portfolio/blob/main/northwind-powerbi-dashboard)
+**Power BI | DAX | MySQL**
+Interactive dashboard analyzing Northwind sales performance across 
+employees, products, and customers. Built DAX measures for revenue 
+ranking, percentage of total, and average order value. Nancy and Anne 
+account for 62% of total revenue — a significant concentration risk.
+
+---
+
+### [Northwind Sales Analysis — SQL](https://github.com/pruiz2/data-analytics-portfolio/blob/main/northwind-sales-analysis)
 **SQL | MySQL**
 Business analysis of the Northwind database exploring sales performance, 
 customer behavior, employee productivity, and supplier revenue across 
@@ -53,6 +63,6 @@ and how music has changed from 2000–2019.
 ---
 
 ## Currently Learning
-- Power BI & DAX
-- Advanced SQL optimization
-- Data storytelling and dashboard design
+- Advanced DAX and Power BI optimization
+- SQL query optimization and indexing
+- Data storytelling and executive reporting
