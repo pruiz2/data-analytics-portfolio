@@ -13,7 +13,7 @@ interactive filtering by customer.
 - Data Source: Northwind Database
 
 ## Dashboard
-📊 [Download Interactive Dashboard]([https://1drv.ms/u/c/35c641b2dc0e2ae8/IQBnoKJN8qXATYW-qUotZh2eAVMvqf9vwisKDkC4fU7kf6M?e=52Ls7P](https://1drv.ms/u/c/35c641b2dc0e2ae8/IQBnoKJN8qXATYW-qUotZh2eAVMvqf9vwisKDkC4fU7kf6M?e=52Ls7P&download=1))
+📊 [Download Interactive Dashboard](https://github.com/pruiz2/data-analytics-portfolio/blob/main/northwind-powerbi-dashboard/northwind_dashboard.pbix)
 *Requires Power BI Desktop to open*
 
 ![Dashboard Preview](northwind_dashboard_screenshot.png)
