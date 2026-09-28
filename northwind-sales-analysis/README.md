@@ -24,8 +24,8 @@ productivity, and supplier revenue.
 ## Key Insights
 
 - Northwind Traders Coffee is the top revenue-generating product at $29,900.00, 
-  accounting for 65% of total product revenue. The 5th ranked product, Northwind 
-  Traders Clam Chowder, generated only $2,798.50 (6%), indicating heavy revenue 
+  accounting for 44% of total revenue ($68,140). The 5th ranked product, Northwind 
+  Traders Clam Chowder, generated only $2,798.50 (4%), indicating heavy revenue 
   concentration in a single SKU — a potential business risk worth monitoring.
 
 - The top customer by spend ($15,432.50) outspent the 5th ranked customer 
@@ -46,9 +46,10 @@ productivity, and supplier revenue.
 - 7 customers (24% of the customer base) have placed more than 2 orders, 
   representing the core loyal segment most likely to respond to retention programs.
 
-- The two most inactive customers have not placed an order in 7,346 days (~20 years), 
-  highlighting a significant lapsed customer segment that may benefit from 
-  a win-back campaign.
+- The two most inactive customers had not placed an order in 7,346 days (~20 years) 
+  as of the analysis date, highlighting a significant lapsed customer segment that 
+  may benefit from a win-back campaign. (This figure is calculated with `CURDATE()`, 
+  so it increases each time the query is run.)
 
 - Revenue trends upward from January through April before declining through summer, 
   suggesting seasonal demand patterns that could inform promotional planning.
@@ -61,5 +62,9 @@ productivity, and supplier revenue.
   disproportionate share of sales. This supplier dependency is a supply chain 
   risk worth addressing.
 
+## Related Project
+- [Northwind Sales Dashboard — Power BI](../northwind-powerbi-dashboard) visualizes 
+  these same metrics in an interactive dashboard.
+
 ## Files
-- `northwind_sales_analysis.sql` - All analysis queries
+- `northwind-sales-analysis.sql` - All analysis queries
